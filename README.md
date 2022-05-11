@@ -1,2 +1,2 @@
 # cssMemSlider
-Slider on vanilla JS
+Slider on pure CSS
