@@ -2,9 +2,37 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>cssMemSlider</title>
 </head>
-<body>
-Hello
+<body class="page">
+<header class="header page__header">
+    <h1 class="header__title">Slider on pure CSS</h1>
+</header>
+<main class="page__main">
+    <div class="slider">
+        <img src="./images/slide1.jpg" alt="" class="slider__image">
+        <img src="./images/slide2.jpg" alt="" class="slider__image">
+        <img src="./images/slide3.jpg" alt="" class="slider__image">
+        <img src="./images/slide4.png" alt="" class="slider__image">
+        <p class="slider__caption">Binary tree is not the same as tree</p>
+        <p class="slider__caption">Anybody knows?..</p>
+        <p class="slider__caption">Nike</p>
+        <p class="slider__caption">Eat elephant py pieces</p>
+        <div class="slider__toggles control">
+            <label for="control1" class="control__label">
+                <input type="radio" name="control" id="control1" class="control__input">
+            </label>
+            <label for="control2" class="control__label">
+                <input type="radio" name="control" id="control2" class="control__input">
+            </label>
+            <label for="control3" class="control__label">
+                <input type="radio" name="control" id="control3" class="control__input">
+            </label>
+            <label for="control4" class="control__label">
+                <input type="radio" name="control" id="control4" class="control__input">
+            </label>
+        </div>
+    </div>
+</main>
 </body>
 </html>
