@@ -1,38 +1,38 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
     <title>cssMemSlider</title>
 </head>
-<body class="page">
-<header class="header page__header">
-    <h1 class="header__title">Slider on pure CSS</h1>
-</header>
-<main class="page__main">
-    <div class="slider">
-        <img src="./images/slide1.jpg" alt="" class="slider__image">
-        <img src="./images/slide2.jpg" alt="" class="slider__image">
-        <img src="./images/slide3.jpg" alt="" class="slider__image">
-        <img src="./images/slide4.png" alt="" class="slider__image">
-        <p class="slider__caption">Binary tree is not the same as tree</p>
-        <p class="slider__caption">Anybody knows?..</p>
-        <p class="slider__caption">Nike</p>
-        <p class="slider__caption">Eat elephant py pieces</p>
-        <div class="slider__toggles control">
-            <label for="control1" class="control__label">
-                <input type="radio" name="control" id="control1" class="control__input">
-            </label>
-            <label for="control2" class="control__label">
-                <input type="radio" name="control" id="control2" class="control__input">
-            </label>
-            <label for="control3" class="control__label">
-                <input type="radio" name="control" id="control3" class="control__input">
-            </label>
-            <label for="control4" class="control__label">
-                <input type="radio" name="control" id="control4" class="control__input">
-            </label>
+<body>
+<div class="page">
+    <header class="header page__header">
+        <h1 class="header__title">Slider on pure CSS</h1>
+    </header>
+    <main class="page__main">
+        <div class="slider">
+            <input type="radio" name="control" id="control1" class="slider__radio" checked>
+            <input type="radio" name="control" id="control2" class="slider__radio">
+            <input type="radio" name="control" id="control3" class="slider__radio">
+            <input type="radio" name="control" id="control4" class="slider__radio">
+            <img src="./images/slide1.jpg" alt="slide1" class="slider__image">
+            <img src="./images/slide2.jpg" alt="slide2" class="slider__image">
+            <img src="./images/slide3.jpg" alt="slide3" class="slider__image">
+            <img src="./images/slide4.png" alt="slide4" class="slider__image">
+            <p class="slider__caption">Binary tree is not the same as tree</p>
+            <p class="slider__caption">Anybody knows?..</p>
+            <p class="slider__caption">Nike</p>
+            <p class="slider__caption">Eat elephant by pieces</p>
+            <div class="slider__toggles">
+                <label for="control1" class="slider__toggle-wrapper"><span class="slider__toggle"></span></label>
+                <label for="control2" class="slider__toggle-wrapper"><span class="slider__toggle"></span></label>
+                <label for="control3" class="slider__toggle-wrapper"><span class="slider__toggle"></span></label>
+                <label for="control4" class="slider__toggle-wrapper"><span class="slider__toggle"></span></label>
+            </div>
         </div>
-    </div>
-</main>
+    </main>
+</div>
 </body>
 </html>
