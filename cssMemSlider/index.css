@@ -30,7 +30,7 @@
 }
 
 .slider {
-    margin: 1rem 0 0;
+    margin: 1rem 0 4rem;
     padding: 3rem;
     display: grid;
     grid-template-columns: 1fr min-content;
